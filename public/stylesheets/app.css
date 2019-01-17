@@ -1,0 +1,111 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: rgb(50, 34, 25);
+   font-weight: 100;
+   font-size: 2.5rem;
+   padding-bottom: 0.5em;
+}
+
+.blurb p span {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    background-color: rgb(179, 140, 109);
+    padding: 0.3em;
+    box-shadow: 10px 0 0 rgb(179, 140, 109), -10px 0 0 rgb(179, 140, 109);
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    font-weight: 100;   
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(179, 140, 109);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(179, 140, 109);
+    font-size: 1.5rem;
+    text-decoration: underline overline;
+}
+
+.headingGroup span {
+    color: rgb(179, 140, 109);
+}
+
+.headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    color: white;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+#imageWithText {
+    text-align: center;
+}
+
+#cover {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.55)
+      ), url("https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1516&q=80");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar.scrolled {
+    background: rgb(50, 34, 25);
+    opacity: 1;
+    transition: background 500ms;
+}
+
+@media (max-width: 575.98px) {
+    #centered h1 {
+        font-size:2em;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
